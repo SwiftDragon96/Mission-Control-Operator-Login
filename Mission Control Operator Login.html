@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title that will appear in the window tag -->
+    <title>Mission Control Operator Login</title>
+    <!-- links the javascript file -->
+    <script src="function strings().js"></script>
+    <!-- links the .css file -->
+    <link rel="stylesheet" href="mission-control-operator-login.css" type ="text/css">
+</head>
+<body>
+    <!-- space image -->
+    <p>
+        <img src="space.jpg" alt="image">
+    </p>
+    <!-- header -->
+    <h1>
+        Mission Control Operator Login
+    </h1>
+    <!-- This is where the strings will add together -->
+    <p id="Updated string">Login Status: </p>
+    <!-- the form starts here -->
+    <form id="stringSubmit" onsubmit="return false">
+    <!-- first name (string 1) -->
+    First Name: <input type="text" id="firstName"/>
+    <br>
+    <!-- last name (string 2) -->
+    Last Name: <input type="text" id="lastName"/>
+    <br>
+    <!-- badge number (string 3) -->
+    Badge #: <input type="number" id="badgeNumber"/>
+    <br>
+    <!-- submit button will check activate string function onclick -->
+    <input type="submit" onclick="strings();"/>
+    </form>
+</body>
+</html>

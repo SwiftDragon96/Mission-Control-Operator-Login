@@ -1,0 +1,57 @@
+body
+{
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: sans-serif,bold,Arial, Helvetica;
+    font-size: 25px;
+    /* adds color to text */
+    color: rgb(0, 195, 255);
+    /* this creates a background gradient style */
+    background-image: linear-gradient(90deg, rgb(10, 154, 190), rgb(0, 0, 0));
+    /* this adds a shadow to the text for a nice popping effect */
+    text-shadow:1px 1px 5px rgb(14, 59, 73), 1px 10px 5px rgb(0, 0, 0);
+}
+
+h1 
+{
+    /* aligns the header */
+    text-align: center;
+}
+
+p
+{
+    /* aligns the paragraph tags, including any images within them */
+    text-align: center;
+}
+
+form
+{
+    margin: 0 auto;
+    width: 250px;
+}
+/* Style the inputs */
+input
+{
+    background: rgb(0, 183, 255);
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    margin: 4px 2px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    text-align: center;
+    cursor: pointer;
+}
+/* Style the inputs on hover */
+input:hover {
+    color: rgb(0, 153, 255);
+    background: black;
+  }
+
+  img
+  {
+    /* adjusts the size of the image */
+    height: auto;
+    width: 800px;
+  }
